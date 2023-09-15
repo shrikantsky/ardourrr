@@ -1,4 +1,4 @@
-! function(e, t) {
+function(e, t) {
     if ("object" == typeof exports && "object" == typeof module) module.exports = t();
     else if ("function" == typeof define && define.amd) define([], t);
     else {
